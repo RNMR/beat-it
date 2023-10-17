@@ -6,15 +6,20 @@ import { SignInView } from './views/sign-in/sign-in.view';
 import { SignUpView } from './views/sign-up/sign-up.view';
 
 const routes: Routes = [
-  { path: '', redirectTo: 'ingresar' },
-  {
+  { 
     path: '',
     component: AuthComponent,
-    children: [
-      { path: 'ingresar', component: SignInView },
-      { path: 'registrarse', component: SignUpView }
-    ]
-}];
+  },
+  // { path: '', redirectTo: 'ingresar' },
+  // {
+  //   path: '',
+  //   component: AuthComponent,
+  //   children: [
+  //     { path: 'ingresar', component: SignInView },
+  //     { path: 'registrarse', component: SignUpView }
+  //   ]
+  // },
+];
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
