@@ -1,10 +1,9 @@
 
-<!-- Check these func -->
-<mat-list-item routerLink="#">
+<!-- <mat-list-item routerLink="#">
   <mat-icon>dashboard</mat-icon><span>Dashboard</span>
-  <!-- <mat-icon>dashboard</mat-icon> -->
-</mat-list-item>
+</mat-list-item> -->
 <mat-list-item routerLink="#" class="side-item">
+  <!-- <mat-icon>dashboard</mat-icon> -->
   <span>Current Students</span> <span class="hov"> > </span>
 </mat-list-item>
 <mat-list-item routerLink="#" class="side-item">
@@ -32,7 +31,7 @@
   <span>School of Art in the World</span> <span class="hov"> > </span>
 </mat-list-item>
 <mat-expansion-panel [class.mat-elevation-z0]="true">
-  <mat-expansion-panel-header>
+  <mat-expansion-panel-header class="expansion-item">
     Newsletters & Calendars
   </mat-expansion-panel-header>
   <mat-nav-list>
@@ -40,31 +39,24 @@
       <mat-icon>apple</mat-icon><span>trickshot</span>
     </a> -->
     <div class="side-item-container">
-      <a mat-list-item routerLink="#">
+      <mat-list-item routerLink="#" class="side-item">
         <mat-icon>how_to_reg</mat-icon><span class="text">Sign up for School of Art newsletters</span>
-      </a>
-      <a mat-list-item routerLink="#">
+      </mat-list-item>
+      <mat-list-item routerLink="#" class="side-item">
         <mat-icon>groups</mat-icon><span class="text">Community Calendar</span>
-      </a>
-      <a mat-list-item routerLink="#">
+      </mat-list-item>
+      <mat-list-item routerLink="#" class="side-item">
         <mat-icon>local_library</mat-icon><span class="text">Academic Calendar</span>
-      </a>
-      <a mat-list-item routerLink="#">
+      </mat-list-item>
+      <mat-list-item routerLink="#" class="side-item">
         <mat-icon>meeting_room</mat-icon><span class="text">Public Events Calendar</span>
-      </a>
-      <a mat-list-item routerLink="#">
+      </mat-list-item>
+      <mat-list-item routerLink="#" class="side-item">
         <mat-icon>public</mat-icon><span class="text">SoA in the World Calendar</span>
-      </a>
+      </mat-list-item>
+      <!-- <a mat-list-item routerLink="#">
+        <mat-icon>how_to_reg</mat-icon><span class="text">Sign up for School of Art newsletters</span>
+      </a> -->
     </div>
-  </mat-nav-list>
-</mat-expansion-panel>
-<mat-expansion-panel [class.mat-elevation-z0]="true">
-  <mat-expansion-panel-header>
-    Frameworks
-  </mat-expansion-panel-header>
-  <mat-nav-list>
-    <a mat-list-item routerLink="#">Spring</a>
-    <a mat-list-item routerLink="#">Hibernate</a>
-    <a mat-list-item routerLink="#">Struts</a>
   </mat-nav-list>
 </mat-expansion-panel>
