@@ -15,4 +15,9 @@ export class SidenavComponent implements OnInit {
   ngOnInit(): void {
       
   }
+
+  navigateExternal() {
+    window.location.href='http://www.cnn.com/';
+}
+
 }
